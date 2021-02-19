@@ -1,0 +1,1 @@
+python -m debugpy --listen 5678 --wait-for-client run.py --model_state pretrained/s2_sm/sm_s2_1_max.pth --env_id msgr-train-v2
