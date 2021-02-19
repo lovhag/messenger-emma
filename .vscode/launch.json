@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd":"${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "run.py",
+            "type": "python",
+            "request": "launch",
+            "program": "run.py",
+            "args": ["--model_state", "pretrained/s2_sm/sm_s2_1_max.pth", "--env_id", "msgr-train-v2"],
+            "cwd":"${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
